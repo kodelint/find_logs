@@ -6,6 +6,14 @@
 
 #### _Usage_
 
+- last 1 minute
+
 ```:perl
-perl find_log.pl -s=16:55:03 -e=16:55:04 access.log
+perl find_log.pl -s=16:55:03 -e=16:56:03 access.log
+```
+
+- last 10 minute
+
+```:perl
+perl find_log.pl -s=14:45:00 -e=16:55:00 access.log
 ```
